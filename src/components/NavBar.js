@@ -45,7 +45,7 @@ const NavBar = () => {
               <i className="fa fa-bars"></i>
             )}
           </button>
-          
+
         </nav>
       </div>
     </>

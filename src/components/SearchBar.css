@@ -1,3 +1,8 @@
+/* .search-bar-container {
+    display: flex;
+    justify-content: center;
+} */
+
 .search-bar-label {
     height: 10vh;
     width: 40vw;
@@ -13,20 +18,31 @@
     border: none;
     background-color: #D0C9C0;
     color: #5F7161;
-    cursor: pointer;
     box-shadow: 0px 2px 2px #3d3d3d29;
+    cursor: pointer;
+}
+
+.search-bar-button:hover {
+    background-color: #5F7161;
+    color: #D0C9C0;
 }
 
 @media only screen and (max-width: 780px) {
 
+    /* .search-bar-container {
+        display: flex;
+        flex-direction: column;
+    } */
+
     .search-bar-label {
     height: 7vh;
-    width: 50vw;
+    width: 80vw;
+    margin-bottom: 1rem;
     }
 
     .search-bar-button {
         height: 7vh;
-        width: 20vw;
+        width: 80vw;
     }
 
 
