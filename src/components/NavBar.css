@@ -9,6 +9,7 @@
   flex-direction: row;
   color: white;
   top: 0;
+  z-index: 100;
 }
 
 .navbar-logo {
@@ -73,6 +74,7 @@
     transition: all 0.5sec ease-out;
     width: 100%;
     background-color: #d0c9c0;
+   
   }
 
   .menu-links {

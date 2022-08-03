@@ -7,7 +7,7 @@
 }
 
 /* z-index: -10 on .main-header caused button:hover not to work,
-moved it to .her-image instead, now it works  */
+moved it to .hero-image instead, now it works  */
 
 .hero-image {
   width: 100%;
