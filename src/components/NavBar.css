@@ -1,11 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Montserrat";
-}
-
 .main-nav-bar {
-  background-color: #5F7161;
+  background-color: #5f7161;
   height: 10vh;
   width: 100%;
   position: sticky;
@@ -17,15 +11,11 @@
   top: 0;
 }
 
-
 .navbar-logo {
   width: 4vw;
   margin-left: 1rem;
 }
 
-.menu-items {
-  display: flex;
-}
 
 .menu-list {
   display: flex;
@@ -41,7 +31,7 @@
 }
 
 .menu-links:hover {
-color: #6D8B74;
+  color: #a1c2a9;
 }
 
 .login-button {
@@ -57,7 +47,8 @@ color: #6D8B74;
 }
 
 .login-button:hover {
-    background-color: #6D8B74;
+  border-color: #a1c2a9;
+  color: #a1c2a9;
 }
 
 .hamburger-menu-icon {
@@ -65,10 +56,7 @@ color: #6D8B74;
 }
 
 @media only screen and (max-width: 780px) {
-  .main-nav-bar {
-    display: flex;
-  }
-
+ 
   .menu-list {
     display: none;
   }
@@ -84,7 +72,7 @@ color: #6D8B74;
     top: 10vh;
     transition: all 0.5sec ease-out;
     width: 100%;
-    background-color: #D0C9C0;
+    background-color: #d0c9c0;
   }
 
   .menu-links {
@@ -97,7 +85,7 @@ color: #6D8B74;
   }
 
   .menu-links:hover {
-    color: #5F7161;
+    color: #5f7161;
   }
 
   .login-button {
@@ -107,7 +95,7 @@ color: #6D8B74;
     font-weight: bolder;
   }
   .login-button:hover {
-    color: #5F7161;
+    color: #5f7161;
     background-color: transparent;
   }
 
@@ -115,7 +103,7 @@ color: #6D8B74;
     display: block;
     position: absolute;
     font-size: 3rem;
-    color: #EFEAD8;
+    color: #efead8;
     border: none;
     outline: none;
     top: 1.2vh;

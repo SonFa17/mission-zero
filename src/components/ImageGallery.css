@@ -3,12 +3,12 @@
     justify-content: space-evenly;
     position: relative;
     top:60vh;
-    background-color: #EFEAD8;
+    background-color: #f3f0e5;
 }
 
 @media only screen and (max-width: 780px) {
     .image-gallery-container {
-        top:55vh;
+        top:52vh;
     }
 }
 

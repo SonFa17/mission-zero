@@ -12,9 +12,9 @@ const NavBar = () => {
           <img src={logo} alt="company logo" className="navbar-logo"></img>
         </Link>
 
-        <nav className="menu-items">
+        <nav>
           <ul
-            className={mobileView ? "hamburger-menu-list" : "menu-list"}
+            className={mobileView ? "hamburger-menu-list" : "menu-list"} /* using UseState hook to change navBar to mobile view */
             onClick={() => setMobileView(false)}
           >
             <li>
@@ -37,7 +37,7 @@ const NavBar = () => {
 
           <button
             className="hamburger-menu-icon"
-            onClick={() => setMobileView(!mobileView)}
+            onClick={() => setMobileView(!mobileView)} /* onClick toggles the hamburger icon to show menu list */
           >
             {mobileView ? (
               <i className="fa fa-times"></i>
