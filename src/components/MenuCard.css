@@ -15,8 +15,8 @@
 }
 
 .menu-card-image {
-  width: 250px;
-  height: 250px;
+  width: 100%;
+  height: 38vh;
   overflow: hidden;
 }
 
@@ -26,8 +26,8 @@
   justify-content: space-around;
   align-items: center;
   background-color: #d0c9c0;
-  width: 250px;
-  height: 50px;
+  width: 100%;
+  height: 8vh;
   white-space: nowrap;
   border: none;
   color: #5f7161;
@@ -43,7 +43,7 @@
     flex-direction: column;
   }
 
-  .menu-card-image {
+  /* .menu-card-image {
     width: 400px;
     height: 400px;
   }
@@ -51,5 +51,5 @@
   .menu-card-description-button {
     width: 400px;
     height: 50px;
-  }
+  } */
 }

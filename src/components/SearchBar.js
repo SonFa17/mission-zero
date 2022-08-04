@@ -9,12 +9,12 @@ const SearchBar = () => {
         <input
           className="search-bar-label"
           type="text"
-          placeholder="search dinner options"
+          placeholder="enter your delivery address here"
           name="search"
         />
 
         <button className="search-bar-button" type="button">
-          search </button>
+          food search</button>
       </form>
     </>
   )

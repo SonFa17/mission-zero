@@ -10,6 +10,7 @@ const MainHeader = () => {
 
         <div>
           <h1 className="main-header-headline"> Thinking about dinner?</h1>
+          <p className="main-header-sub-headline">Order with us for fast delivery from your favourite local restaurants</p>
         </div>
 
         <div className="main-header-search-bar">
